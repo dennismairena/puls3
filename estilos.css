@@ -120,6 +120,10 @@ nav #publicar_nav a
 {
 background: white;
 border-bottom: 3px solid #22bce0; 
+position: relative;
+top:10px;
+margin-bottom: 3em;
+min-height: 128px;
 }
 
 #contenido .item p
@@ -148,6 +152,7 @@ border-bottom: 3px solid #22bce0;
 #contenido .item .imagen_item img
 {
 	width:96px;
+	margin:0 0 0 0;
 }
 
 #contenido .item .titulo_item 
@@ -161,4 +166,16 @@ border-bottom: 3px solid #22bce0;
 {
 	text-decoration: none;
 	color:#444;
+}
+#contenido .item .votacion
+{
+	border: 2px solid red;
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	padding:0.5em 0;
+	position: absolute;
+	text-align: center;
+	top:100%;
+	margin:3px 0 0 0;
+	width: 96px;
 }
